@@ -89,7 +89,7 @@ const test = () =>{
   return (
     <div>
       <div className="container my-3">
-        <h2>Add your Quiz</h2> 
+        <h2>Add Your Quiz</h2> 
         {/* http://localhost:1000/api/quiz/codeupdate */}
         <a onClick={test} className="btn btn-primary" tabIndex="-1" role="button">Publish</a>
         <input type="text" name="code" value={gcode} className="mx-3"/>
